@@ -6,17 +6,29 @@
 [ci-img]:  https://travis-ci.org/tolking/postcss-tolking.svg
 [ci]:      https://travis-ci.org/tolking/postcss-tolking
 
+## box
+
 ```css
 .foo {
-    /* Input example */
+  box: 100%;
+  min-box: 5rem 2rem;
+  max-box: 10rem;
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  with: 100%;
+  height: 100%;
+  min-width: 5rem;
+  min-height: 2rem;
+  max-width: 10rem;
+  max-height: 10rem;
 }
 ```
+
+## Plugins
+- box
 
 ## Usage
 
