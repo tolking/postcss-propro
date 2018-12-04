@@ -1,0 +1,38 @@
+{
+  "name": "postcss-tolking",
+  "version": "0.0.0",
+  "description": "PostCSS plugin test postcss",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "test"
+  ],
+  "author": "tolking <qw13131wang@gmail.com>",
+  "license": "MIT",
+  "repository": "tolking/postcss-tolking",
+  "bugs": {
+    "url": "https://github.com/tolking/postcss-tolking/issues"
+  },
+  "homepage": "https://github.com/tolking/postcss-tolking",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
