@@ -1,6 +1,6 @@
 # PostCSS Propro [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin test postcss.
+[PostCSS] plugin adds and extends some properties
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/tolking/postcss-propro.svg
