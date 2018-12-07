@@ -1,20 +1,20 @@
 {
-  "name": "postcss-tolking",
+  "name": "postcss-propro",
   "version": "0.0.0",
-  "description": "PostCSS plugin test postcss",
+  "description": "PostCSS plugin adds and extends some properties",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "test"
+    "postcss-propro"
   ],
   "author": "tolking <qw13131wang@gmail.com>",
   "license": "MIT",
-  "repository": "tolking/postcss-tolking",
+  "repository": "tolking/postcss-propro",
   "bugs": {
-    "url": "https://github.com/tolking/postcss-tolking/issues"
+    "url": "https://github.com/tolking/postcss-propro/issues"
   },
-  "homepage": "https://github.com/tolking/postcss-tolking",
+  "homepage": "https://github.com/tolking/postcss-propro",
   "dependencies": {
     "postcss": "^6.0.16"
   },
