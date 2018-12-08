@@ -6,13 +6,17 @@
 [ci-img]:  https://travis-ci.org/tolking/postcss-propro.svg
 [ci]:      https://travis-ci.org/tolking/postcss-propro
 
-## box
+## [Documentation](https://ououe.com/postcss-propro)
+Click on the Documentation to learn more
+
+## Example
+### box
 ``` css
 // input
 .foo {
   box: 100%;
   min-box: 5rem 2rem;
-  max-box: 10rem 20vh;
+  max-box: 10rem;
 }
 ```
 
@@ -24,27 +28,11 @@
   min-width: 5rem;
   min-height: 2rem;
   max-width: 10rem;
-  max-height: 20vh;
+  max-height: none;
 }
 ```
 
-## arrow
-``` css
-// input
-.foo {
-  arrow: top-left 20px #f0f;
-}
-```
-
-## btn
-``` css
-// input
-.foo {
-  btn: 10rem 4rem 0.5rem #00e;
-}
-```
-
-## font-cc
+### font-cc
 ``` css
 // input
 .foo {
@@ -52,7 +40,15 @@
 }
 ```
 
-## font-hidden
+``` css
+// output
+.foo {
+  text-align: center;
+  line-height: 2rem;
+}
+```
+
+### font-hidden
 ``` css
 // input
 .foo {
@@ -60,7 +56,16 @@
 }
 ```
 
-## position
+``` css
+// output
+.foo {
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+```
+
+### position
 ``` css
 // input
 .foo {
@@ -68,7 +73,18 @@
 }
 ```
 
-## position-cc
+``` css
+// output
+.foo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+```
+
+### position-cc
 ``` css
 // input
 .foo {
@@ -76,21 +92,59 @@
 }
 ```
 
-## spread
 ``` css
-// input
+// output
 .foo {
-  spread: top-bottom #da3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2rem 0 0 -5rem;
 }
 ```
 
-## Plugins
-- box
+### arrow
+``` css
+// input
+.foo {
+  arrow: top-left 20px #f0f;
+}
+```
+
+### btn
+``` css
+// input
+.foo {
+  btn: 10rem 4rem 0.5rem #00e;
+}
+```
+
+### spread
+``` css
+// input
+.foo {
+  spread: top-bottom 100% 100% #da3;
+}
+```
+
+## Options
+``` js
+  // default color
+  backgroundColor: '#0074d9', // for btn
+  lineColor: '#ccc' // for arrow and spread
+```
 
 ## Usage
-
-```js
+``` js
 postcss([ require('postcss-propro') ])
+
+// or postcss.config.js
+plugins: {
+  'postcss-propro': {
+    backgroundColor: '#0074d9',
+    lineColor: '#ccc'
+  },
+  'autoprefixer': {}
+}
 ```
 
 See [PostCSS] docs for examples for your environment.

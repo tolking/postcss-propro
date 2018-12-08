@@ -1,6 +1,6 @@
 {
   "name": "postcss-propro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostCSS plugin adds and extends some properties",
   "keywords": [
     "postcss",
@@ -15,6 +15,7 @@
     "url": "https://github.com/tolking/postcss-propro/issues"
   },
   "homepage": "https://github.com/tolking/postcss-propro",
+  "doc": "https://ououe.com/postcss-propro",
   "dependencies": {
     "postcss": "^6.0.16"
   },
