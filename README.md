@@ -105,24 +105,33 @@ Click on the Documentation to learn more
 ### arrow
 ``` css
 // input
+:root {
+  --c-line: #ccc;
+}
 .foo {
-  arrow: top-left 20px #f0f;
+  arrow: top-left 20px var(--c-line);
 }
 ```
 
 ### btn
 ``` css
 // input
+:root {
+  --c-blue: #0074d9;
+}
 .foo {
-  btn: 10rem 4rem 0.5rem #00e;
+  btn: 10rem 4rem 0.5rem var(--c-blue);
 }
 ```
 
 ### spread
 ``` css
 // input
+:root {
+  --c-line: #da3;
+}
 .foo {
-  spread: top-bottom 100% 100% #da3;
+  spread: top-bottom 100% 100% var(--c-line);
 }
 ```
 
