@@ -6,7 +6,7 @@
 [ci-img]:  https://travis-ci.org/tolking/postcss-propro.svg
 [ci]:      https://travis-ci.org/tolking/postcss-propro
 
-## [Documentation](https://ououe.com/postcss-propro)
+## [Documentation](https://ououe.com/lib/postcss-propro.html)
 Click on the Documentation to learn more
 
 ## Example

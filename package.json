@@ -1,6 +1,6 @@
 {
   "name": "postcss-propro",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PostCSS plugin adds and extends some properties",
   "keywords": [
     "postcss",
