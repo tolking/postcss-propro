@@ -14,7 +14,7 @@
     "url": "https://github.com/tolking/postcss-propro/issues"
   },
   "homepage": "https://github.com/tolking/postcss-propro",
-  "doc": "https://ououe.com/postcss-propro/",
+  "doc": "https://ououe.com/lib/postcss-propro",
   "dependencies": {
     "postcss": "^6.0.16"
   },
