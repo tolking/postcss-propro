@@ -9,13 +9,6 @@ function run(input, output, opts) {
         });
 }
 
-it('arrow', () => {
-    return run(
-        'a{ arrow: top 1rem #ccc }',
-        'a{ width: 0; height: 0; border-left: 1rem solid transparent; border-right: 1rem solid transparent; border-bottom: 1rem solid #ccc }'
-    );
-});
-
 it('box', function () {
     return run(
         'a { box: 2rem 1rem }',
@@ -30,9 +23,3 @@ it('font-cc', function () {
     );
 });
 
-it('position', function () {
-    return run(
-        'a { position: absolute 1rem }',
-        'a { position: absolute; top: 1rem; right: 1rem; bottom: 1rem; left: 1rem }'
-    );
-});
