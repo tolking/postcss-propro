@@ -9,7 +9,7 @@
   ],
   "author": "tolking <qw13131wang@gmail.com>",
   "license": "MIT",
-  "repository": "tolking/postcss-propro",
+  "repository": "https://github.com/tolking/postcss-propro",
   "bugs": {
     "url": "https://github.com/tolking/postcss-propro/issues"
   },
